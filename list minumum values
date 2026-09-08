@@ -1,0 +1,20 @@
+def passing_scores(scores, minimum):
+   
+    minimum_list = []
+    
+    for i in scores:
+        if i >= minimum :
+            minimum_list.append(i)
+   
+    return minimum_list
+
+# thechunk list
+def chunk_list(items, size):
+    if size < 1:
+        return "Invalid size"
+
+    new_smaller_lists = []
+    for i in range(0, len(items), size):
+        the_brokendown_list = items[i:i + size]
+        new_smaller_lists.append(the_brokendown_list)
+    return new_smaller_lists
