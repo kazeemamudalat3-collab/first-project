@@ -18,3 +18,6 @@ def prime_list(n):
             primes.append(i)
 
     return primes
+
+
+prime_list(28)
