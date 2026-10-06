@@ -78,6 +78,7 @@ while choice != "5":
 
     elif choice == "5":
         print("Exit")
+        exit()
 
     else:
         print("Invalid choice")
