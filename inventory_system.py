@@ -12,7 +12,7 @@ inventory = {
     "caps": 8
 }
 menu = ""
-while menu != 6:
+while menu != "6":
     menu = input("1.Add new product\n2.Remove a product\n3.update quantity\n4.check a particular stock\n5.List all products\n6.Exit\nselect an option: ")
     if menu == "1":
         product = input("Enter product you'd like to add: ")

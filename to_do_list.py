@@ -6,7 +6,7 @@
 # Delete tasks
 ToDo_list = {}
 menu = ""
-while menu !=5:
+while menu !="5":
     menu = input("Select 1-4 for menu: \n1.Add task\n2.View All Tasks\n3.Mark task as completed\n4.Delete Task\n5.Exit\nEnter an option:")
     if menu == "1":
         print("you've choosen : ",menu  )
